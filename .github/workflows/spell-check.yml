@@ -19,7 +19,7 @@ jobs:
             - name: Run cspell
               uses: streetsidesoftware/cspell-action@v2
               with:
-                 files: "*.tex"
-                 check_dot_files: false
-                 strict: true
-                 incremental_file_only: false
+                files: "*.tex"
+                check_dot_files: false
+                strict: true
+                incremental_files_only: false
